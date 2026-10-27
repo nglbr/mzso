@@ -1,0 +1,27 @@
+
+# Secretos y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Terraform
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Material local, nunca se publica
+docs/_reemplazados/
+docs/_archivo_v1/
+
+# Sistema
+.DS_Store
